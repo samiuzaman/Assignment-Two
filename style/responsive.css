@@ -1,0 +1,19 @@
+/* Small Size Device (Mobile) */
+@media screen and (max-width: 576px){
+    /* Nav Section Code Start Here */
+    nav{
+        width: 90%;
+    }
+    .mobile-nav-menu-bar{
+        display: block;
+    }
+    .mobile-nav-menu-bar i{
+        color: var(--whiteColor);
+        font-size: 22px;
+        padding-right: 10px;
+    }
+    .desktop-nav-menu{
+        display: none;
+    }
+    /* Nav Section Code End Here */
+}
