@@ -45,17 +45,14 @@ button {
   border: none;
   border-radius: 50px;
 }
-main section {
-  /* margin: 100px 0;
-    padding: 100px 0; */
-}
 /* Reset Code End Here */
 header {
   background-image: linear-gradient(
     rgb(17, 17, 17),
-    rgba(255, 255, 255, 0.15),
+    rgba(255, 255, 255, 0.18),
     rgb(17, 17, 17)
   );
+  background-position: center;
 }
 /* Nav Section Code Start Here */
 nav {
@@ -162,3 +159,53 @@ nav ul li:nth-child(1) {
   
 } */
 /* Banner Sectiio Code End Here */
+/* Change Your Habits Section Code Start Here */
+#change-habit-section{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.change-habit-title-container h2{
+  font-size: 2.8rem;
+  font-weight: 900;
+  color: var(--whiteColor);
+  margin-bottom: 24px;
+  text-align: center;
+}
+.change-habit-title-container p{
+  font-size: 0.85rem;
+  width: 60%;
+  margin: 0 auto;
+  line-height: 25px;
+  text-align: center;
+}
+.change-habit-content-area{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 84px;
+  margin-top: 64px;
+}
+.change-habit-child-container{
+  width: 30%;
+  text-align: center;
+}
+.change-habit-child-container img{
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+.change-habit-child-container h5{
+  color: var(--whiteColor);
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 24px;
+}
+.change-habit-child-container p{
+  font-size: 0.8rem;
+  line-height: 18px;
+  text-align: center;
+  margin-top: 8px;
+}
+/* Change Your Habits Section Code End Here */
