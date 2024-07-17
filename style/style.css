@@ -6,7 +6,7 @@
   --mandarinColor: rgb(230, 83, 60);
   --neroColor: rgb(34, 34, 34);
   --approxIvoryColor: rgba(255, 255, 255, 0.1);
-  --lineargradient: rgb(17, 17, 17), rgba(119, 119, 119, 0);
+  /* --lineargradient: rgb(17, 17, 17), rgba(119, 119, 119, 0); */
 }
 /* Root Section End Here */
 /* Reset Code Start Here */
@@ -20,7 +20,6 @@
 body {
   background-color: var(--blackColor);
   font-family: "Inter", sans-serif;
-  /* font-family: 'Miama', sans-serif; */
 }
 p {
   font-size: 1rem;
@@ -28,6 +27,7 @@ p {
   line-height: 25px;
   letter-spacing: 0.4;
   color: var(--grayColor);
+  text-align: justify;
 }
 a {
   text-decoration: none;
@@ -35,13 +35,27 @@ a {
 li {
   list-style: none;
 }
+button {
+  width: 210px;
+  height: 48px;
+  color: var(--whiteColor);
+  background: var(--mandarinColor);
+  font-weight: 600;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 50px;
+}
 main section {
   /* margin: 100px 0;
     padding: 100px 0; */
 }
 /* Reset Code End Here */
 header {
-  height: 100vh;
+  background-image: linear-gradient(
+    rgb(17, 17, 17),
+    rgba(255, 255, 255, 0.15),
+    rgb(17, 17, 17)
+  );
 }
 /* Nav Section Code Start Here */
 nav {
@@ -83,3 +97,68 @@ nav ul li:nth-child(1) {
   display: none;
 }
 /* Nav Section Code End Here */
+/* Banner Sectiio Code Start Here */
+#banner-section {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.banner-text-contant {
+  width: 50%;
+}
+.banner-text-contant h1 {
+  font-size: 4rem;
+  color: var(--whiteColor);
+  font-weight: 800;
+  width: 80%;
+  line-height: 78px;
+  margin-bottom: 28px;
+}
+.banner-text-contant h1 span {
+  font-family: "Miama", sans-serif;
+  font-size: 8rem;
+  font-weight: 500;
+}
+.banner-text-contant p {
+  padding-right: 15%;
+  margin-bottom: 28px;
+}
+.banner-btn-two {
+  margin-left: 10px;
+  background-color: transparent;
+  border: 1px solid var(--whiteColor);
+}
+.banner-image-container {
+  margin-top: 54px;
+  width: 50%;
+  text-align: right;
+}
+/* #banner-section div {
+  width: 180px;
+  height: 108px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.055);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  text-align: center;
+  color: var(--whiteColor);
+}
+#banner-section div h3 {
+  font-size: 2rem;
+  font-weight: 900;
+}
+#banner-section div h4 {
+  font-size: 1.7rem;
+  font-weight: 900;
+}
+#banner-section div p {
+  font-size: 0.8rem;
+}
+#banner-section div:nth-child(1){
+  position: absolute;
+  
+} */
+/* Banner Sectiio Code End Here */
