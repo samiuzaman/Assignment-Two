@@ -41,6 +41,26 @@
   .banner-image-container {
     width: 100%;
   }
-  
+
   /* Banner Sectiio Code End Here */
+  /* Change Your Habits Section Code Start Here */
+  #change-habit-section {
+    width: 90%;
+  }
+  .change-habit-title-container {
+    width: 100%;
+  }
+  .change-habit-content-area {
+    flex-direction: column;
+  }
+  .change-habit-child-container {
+    width: 70%;
+  }
+  .change-habit-child-container h5 {
+    font-size: 1.3rem;
+  }
+  .change-habit-child-container p {
+    font-size: 1rem;
+  }
+  /* Change Your Habits Section Code End Here */
 }
