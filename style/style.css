@@ -223,7 +223,7 @@ nav ul li:nth-child(1) {
   background-color: var(--neroColor);
   border-radius: 15px;
   margin-bottom: 120px;
-  padding: 22px;
+  padding: 40px 20px;
   padding-right: 2%;
 }
 .card-text-area {
