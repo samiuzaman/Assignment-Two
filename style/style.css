@@ -49,7 +49,7 @@ button {
 header {
   background-image: linear-gradient(
     rgb(17, 17, 17),
-    rgba(255, 255, 255, 0.17),
+    rgba(255, 255, 255, 0.12),
     rgb(17, 17, 17)
   );
   background-position: center;
@@ -132,6 +132,53 @@ nav ul li:nth-child(1) {
   margin-top: 54px;
   width: 50%;
   text-align: right;
+  position: relative;
+}
+.banner-image-first-child,
+.banner-image-second-child {
+  width: 193px;
+  height: 98px;
+  background-color: var(--approxIvoryColor);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  position: absolute;
+  top: 130px;
+  left: 450px;
+  text-align: center;
+  backdrop-filter: blur(5px);
+}
+.banner-image-second-child {
+  width: 206px;
+  height: 96px;
+  position: absolute;
+  top: 420px;
+  left: 110px;
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+}
+.banner-image-second-child span {
+  width: 35px;
+  height: 35px;
+  background-color: var(--mandarinColor);
+  border-radius: 50%;
+}
+.banner-image-first-child h3 {
+  color: var(--whiteColor);
+  font-size: 2.3rem;
+  font-weight: 900;
+}
+.banner-image-second-child h3 {
+  color: var(--whiteColor);
+  font-size: 1.9rem;
+  font-weight: 900;
+}
+.banner-image-first-child p,
+.banner-image-second-child p {
+  font-size: 0.8rem;
 }
 /* #banner-section div {
   width: 180px;
