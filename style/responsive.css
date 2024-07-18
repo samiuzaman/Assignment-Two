@@ -63,4 +63,20 @@
     font-size: 1rem;
   }
   /* Change Your Habits Section Code End Here */
+  /* Card Section Code Start Here */
+  #card-section {
+    width: 90%;
+    flex-direction: column;
+  }
+  .card-text-area {
+    width: 100%;
+  }
+  .card-image-area {
+    width: 137px;
+    height: 110px;
+  }
+  .card-image-area {
+    width: 80%;
+  } */
+  /* Card Section Code End Here */
 }
