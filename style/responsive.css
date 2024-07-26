@@ -1,5 +1,5 @@
 /* Small Size Device (Mobile) */
-@media screen and (max-width: 576px) {
+@media only screen and (max-width: 576px) {
   /* Reset Code Start */
   button {
     width: 145px;
@@ -40,6 +40,31 @@
   }
   .banner-image-container {
     width: 100%;
+    text-align: left;
+  }
+  .banner-image-container img {
+    width: 85%;
+  }
+  .banner-image-first-child {
+    width: 160px;
+    height: 85px;
+    position: absolute;
+    top: 30px;
+    left: 160px;
+  }
+  .banner-image-second-child {
+    width: 160px;
+    height: 85px;
+    top: 180px;
+    left: 10px;
+  }
+  .banner-image-first-child h3 {
+    font-size: 2rem;
+    font-weight: 800;
+  }
+  .banner-image-second-child h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
   }
 
   /* Banner Sectiio Code End Here */
@@ -69,7 +94,7 @@
     flex-direction: column;
     padding: 0px;
     padding-right: 0%;
-    padding: 15px;
+    padding: 35px 15px;
   }
   .card-text-area {
     width: 100%;
@@ -89,5 +114,268 @@
     width: 100%;
     height: 220px;
   }
+
   /* Card Section Code End Here */
+  /* Trainings and Exercises Section Code Start Here */
+  #trainings-exercises-section {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .trainings-exercises-title-container {
+    width: 100%;
+  }
+  .trainings-images-container-one {
+    display: block;
+  }
+  .trainings-images-container-one img,
+  .trainings-images-container-two img {
+    margin-bottom: 16px;
+    border-radius: 10px;
+  }
+  .trainings-images-container-two {
+    display: block;
+  }
+  /* Trainings and Exercises Section Code End Here */
+  /* BMI Calculator Section Code Start Here */
+  .bmi-calculator-title {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 24px;
+  }
+  .bmi-calculator-title > h3 {
+    font-size: 2.3rem;
+    font-weight: 800;
+  }
+  .bmi-calculator-contant-container {
+    flex-direction: column;
+    padding: 0px;
+    padding: 30px 0;
+  }
+  .BMI-Calculator-Chart {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 44px;
+  }
+  .BMI-Calculator-Chart h3 {
+    font-size: 1.4rem;
+    font-weight: 800;
+  }
+  .Calculate-your-BMI {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .Calculate-your-BMI input,
+  .Calculate-your-BMI select {
+    width: 100%;
+  }
+
+  /* BMI Calculator Section Code End Here */
+  /* Unique(Subscription) Section Code End Here */
+  #subcription-section {
+    width: 90%;
+  }
+  .subcription-title-container {
+    width: 100%;
+    padding: 10px;
+  }
+  .subcription-main-container {
+    flex-direction: column;
+  }
+
+  /* Unique(Subscription) Section Code End Here */
+  /* Meet Our Team Section Code Start Here */
+  #meet-our-team-section {
+    width: 90%;
+  }
+  .meet-our-team-title-container {
+    width: 100%;
+  }
+  .meet-our-team-title-container h2 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .meet-our-team-member-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+    border-radius: 15px;
+    padding: 25px 20px;
+  }
+  .team-member {
+    width: 100%;
+    position: relative;
+  }
+  .team-member div h5 {
+    font-size: 1.2rem;
+  }
+  .team-member div {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 145px;
+    height: 1.2em;
+    white-space: nowrap;
+  }
+  .team-member img {
+    width: 100%;
+    height: 250px;
+    border-radius: 15px;
+  }
+  /* Meet Our Team Section Code End Here */
+  /* Footer Section Code Start Here */
+  .footer-contant {
+    width: 90%;
+    flex-direction: column;
+  }
+  .footer-child-container {
+    width: 100%;
+    flex-direction: column;
+    margin-top: 24px;
+  }
+  .footer-section-one {
+    width: 90%;
+  }
+  .footer-section-two,
+  .footer-section-three {
+    width: 100%;
+  }
+  .footer-section-one p {
+    font-size: 1rem;
+    text-align: justify;
+  }
+  /* Footer Section Code End Here */
+}
+
+/* Medium Size Device (Tablet) */
+@media only screen and (min-width: 677px) and (max-width: 992px) {
+  nav {
+    width: 90%;
+  }
+  /* Banner Sectiio Code Start Here */
+  #banner-section {
+    width: 80%;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  .banner-text-contant {
+    width: 100%;
+  }
+  .banner-text-contant h1 {
+    font-size: 4.5rem;
+    font-weight: 900;
+    line-height: 88px;
+  }
+  .banner-text-contant h1 span {
+    font-size: 9rem;
+  }
+  .banner-image-container {
+    width: 50%;
+  }
+  .banner-image-first-child {
+    width: 160px;
+    height: 85px;
+    position: absolute;
+    top: 40px;
+    left: 210px;
+  }
+  .banner-image-second-child {
+    width: 160px;
+    height: 85px;
+    top: 360px;
+    left: 7px;
+  }
+  /* Banner Sectiio Code End Here */
+  /* Change Your Habits Section Code Start Here */
+  #change-habit-section {
+    width: 80%;
+  }
+  .change-habit-title-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .change-habit-content-area {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+  .change-habit-child-container {
+    width: 70%;
+  }
+  .change-habit-child-container h5 {
+    font-size: 1.3rem;
+  }
+  .change-habit-child-container p {
+    font-size: 1rem;
+  }
+  /* Change Your Habits Section Code End Here */
+  /* Card Section Code Start Here */
+  #card-section {
+    width: 90%;
+    flex-direction: row;
+    padding: 0px;
+    padding-right: 0%;
+    padding: 15px 45px;
+  }
+  .card-text-area {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 24px;
+    padding-left: 0px;
+    margin-top: 25px;
+  }
+  .card-text-area h2 {
+    font-size: 2.5rem;
+    padding-right: 0%;
+  }
+  .card-text-area p {
+    text-align: left;
+    line-height: 28px;
+    font-size: 1rem;
+  }
+
+  /* Card Section Code End Here */
+  /* Trainings and Exercises Section Code Start Here */
+  #trainings-exercises-section {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .trainings-exercises-title-container {
+    width: 100%;
+  }
+  /* Trainings and Exercises Section Code End Here */
+  /* BMI Calculator Section Code Start Here */
+  .bmi-calculator-title {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 24px;
+  }
+  .bmi-calculator-title > h3 {
+    font-size: 2.3rem;
+    font-weight: 800;
+  }
+  .bmi-calculator-contant-container {
+    flex-direction: column;
+    padding: 0px;
+    padding: 30px 0;
+  }
+  .BMI-Calculator-Chart {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 44px;
+  }
+  .Calculate-your-BMI p {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .Calculate-your-BMI {
+    width: 90%;
+    margin: 0 auto;
+  }
+  /* BMI Calculator Section Code End Here */
+  
+  
+  
 }

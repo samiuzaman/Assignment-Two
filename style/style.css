@@ -29,6 +29,15 @@ p {
   color: var(--grayColor);
   text-align: justify;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--whiteColor);
+  font-size: 2rem;
+}
 a {
   text-decoration: none;
 }
@@ -44,6 +53,7 @@ button {
   font-size: 1.1rem;
   border: none;
   border-radius: 50px;
+  cursor: pointer;
 }
 /* Reset Code End Here */
 header {
@@ -94,7 +104,7 @@ nav ul li:nth-child(1) {
   display: none;
 }
 /* Nav Section Code End Here */
-/* Banner Sectiio Code Start Here */
+/* Banner Section Code Start Here */
 #banner-section {
   width: 80%;
   margin: 0 auto;
@@ -136,7 +146,7 @@ nav ul li:nth-child(1) {
 }
 .banner-image-first-child,
 .banner-image-second-child {
-  width: 193px;
+  width: 185px;
   height: 98px;
   background-color: var(--approxIvoryColor);
   display: flex;
@@ -147,18 +157,18 @@ nav ul li:nth-child(1) {
   position: absolute;
   top: 130px;
   left: 450px;
-  text-align: center;
   backdrop-filter: blur(5px);
 }
 .banner-image-second-child {
-  width: 206px;
+  width: 205px;
   height: 96px;
   position: absolute;
   top: 420px;
-  left: 110px;
+  left: 105px;
   display: flex;
   flex-direction: row;
   gap: 14px;
+  padding-right: 30px;
 }
 .banner-image-second-child span {
   width: 35px;
@@ -170,6 +180,11 @@ nav ul li:nth-child(1) {
   color: var(--whiteColor);
   font-size: 2.3rem;
   font-weight: 900;
+  text-align: left;
+  padding-right: 35px;
+}
+.banner-image-first-child p {
+  padding-right: 20px;
 }
 .banner-image-second-child h3 {
   color: var(--whiteColor);
@@ -180,32 +195,8 @@ nav ul li:nth-child(1) {
 .banner-image-second-child p {
   font-size: 0.8rem;
 }
-/* #banner-section div {
-  width: 180px;
-  height: 108px;
-  padding: 20px;
-  background-color: rgba(255, 255, 255, 0.055);
-  backdrop-filter: blur(10px);
-  border-radius: 15px;
-  text-align: center;
-  color: var(--whiteColor);
-}
-#banner-section div h3 {
-  font-size: 2rem;
-  font-weight: 900;
-}
-#banner-section div h4 {
-  font-size: 1.7rem;
-  font-weight: 900;
-}
-#banner-section div p {
-  font-size: 0.8rem;
-}
-#banner-section div:nth-child(1){
-  position: absolute;
-  
-} */
-/* Banner Sectiio Code End Here */
+
+/* Banner Section Code End Here */
 /* Change Your Habits Section Code Start Here */
 #change-habit-section {
   width: 80%;
@@ -304,3 +295,133 @@ nav ul li:nth-child(1) {
   transform: scale(2.5);
 }
 /* Card Section Code End Here */
+
+/* Trainings and Exercises Section Code Start Here */
+#trainings-exercises-section {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.trainings-exercises-title-container {
+  width: 65%;
+  margin-bottom: 50px;
+}
+.trainings-exercises-title-container h2 {
+  font-size: 2.8rem;
+  font-weight: 900;
+  margin-bottom: 16px;
+}
+.trainings-exercises-title-container p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.trainings-images-container-one {
+  display: grid;
+  grid-template-columns: 0.75fr 1.4fr 0.85fr;
+}
+.trainings-images-container-one img,
+.trainings-images-container-two img {
+  width: 100%;
+  height: 221px;
+}
+.trainings-images-container-two {
+  display: grid;
+  grid-template-columns: 1.2fr 0.75fr 1.05fr;
+}
+/* Trainings and Exercises Section Code End Here */
+
+/* BMI Calculator Section Code Start Here */
+#bmi-calculator-section {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.bmi-calculator-title {
+  width: 55%;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+.bmi-calculator-title > h3 {
+  font-size: 2.8rem;
+  font-weight: 900;
+  margin-bottom: 14px;
+}
+.bmi-calculator-title > p {
+  text-align: left;
+}
+.bmi-calculator-contant-container {
+  width: 100%;
+  padding: 56px;
+  background-color: var(--neroColor);
+  display: flex;
+  justify-content: space-around;
+}
+.BMI-Calculator-Chart {
+}
+.BMI-Calculator-Chart h3 {
+  font-size: 1.9rem;
+  font-weight: 800;
+  color: var(--whiteColor);
+  margin-bottom: 58px;
+}
+.BMI-Calculator-Chart table,
+tr,
+th,
+td {
+  border: 1px solid var(--approxIvoryColor);
+  border-collapse: collapse;
+  padding: 15px 40px;
+  text-align: left;
+}
+.BMI-Calculator-Chart table tr th {
+  color: var(--whiteColor);
+  font-weight: 400;
+  font-size: 1rem;
+}
+.BMI-Calculator-Chart table tr td {
+  color: var(--grayColor);
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+.Calculate-your-BMI {
+  width: 45%;
+}
+.Calculate-your-BMI input,
+.Calculate-your-BMI select {
+  padding: 18px 0 18px 20px;
+  border: none;
+  background-color: var(--approxIvoryColor);
+  color: var(--grayColor);
+  font-size: 1rem;
+  font-weight: 500;
+  outline: none;
+  border-radius: 10px;
+}
+.Calculate-your-BMI select {
+  padding-left: 14px;
+}
+.Calculate-your-BMI input::placeholder {
+  color: var(--grayColor);
+}
+.Calculate-your-BMI h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.Calculate-your-BMI p {
+  font-size: 0.9rem;
+  margin-bottom: 38px;
+}
+.Calculate-your-BMI-input-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+.Calculate-your-BMI-input-container select:nth-last-child(2) {
+  grid-column: span 2;
+  margin-bottom: 18px;
+}
+/* BMI Calculator Section Code End Here */
+
+
+
