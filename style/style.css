@@ -422,6 +422,123 @@ td {
   margin-bottom: 18px;
 }
 /* BMI Calculator Section Code End Here */
+/* Unique(Subscription) Section Code End Here */
+#subcription-section {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.subcription-title-container {
+  width: 65%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.subcription-title-container h2 {
+  font-size: 2.8rem;
+  margin-bottom: 24px;
+  font-weight: 800;
+}
+.subcription-title-container p {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.subcription-main-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+}
+.subcribetion-single-container {
+  width: 325px;
+  height: 450px;
+  margin: 0 auto;
+  list-style: circle;
+  border: 2px solid var(--approxIvoryColor);
+  padding: 40px 30px;
+  border-radius: 15px;
+  background-color: var(--neroColor);
+  transition: 0.5;
+}
+.subcribetion-single-container:hover {
+  transform: scale(1.07);
+}
+.subcribetion-single-container p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.subcribetion-single-container p span {
+  font-size: 2.5rem;
+}
+.subcribetion-single-container hr {
+  color: var(--approxIvoryColor);
+  margin-top: 05px;
+  margin-bottom: 25px;
+}
+.subcribetion-single-container button {
+  margin-top: 15px;
+  border-radius: 5px;
+  transition: 0.5;
+  border: none;
+}
+.subcribetion-single-container button:hover {
+  background-color: #9c59b646;
+}
 
-
+.subcribetion-single-container ul li {
+  list-style-type: disc;
+  margin-left: 20px;
+  color: var(--whiteColor);
+  padding-bottom: 15px;
+  color: var(--grayColor);
+}
+/* Unique(Subscription) Section Code End Here */
+/* Meet Our Team Section Code Start Here */
+#meet-our-team-section {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.meet-our-team-title-container {
+  width: 55%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 52px;
+}
+.meet-our-team-title-container h2 {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 14px;
+}
+.meet-our-team-title-container p {
+  text-align: center;
+  font-size: 0.9rem;
+}
+.meet-our-team-member-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  gap: 20px;
+  background-color: var(--approxIvoryColor);
+  border-radius: 15px;
+  padding: 25px 20px;
+}
+.team-member {
+  position: relative;
+}
+.team-member img {
+  width: 350px;
+  height: 310px;
+  border-radius: 15px;
+  filter: brightness(75%);
+}
+.team-member div {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+.team-member div h5 {
+  font-size: 1.3rem;
+}
+/* Meet Our Team Section Code End Here */
 
