@@ -375,7 +375,21 @@
     margin: 0 auto;
   }
   /* BMI Calculator Section Code End Here */
-  
+  /* Unique(Subscription) Section Code End Here */
+  #subcription-section {
+    width: 90%;
+  }
+  .subcription-title-container {
+    width: 100%;
+    padding: 10px;
+  }
+  .subcription-main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+  /* Unique(Subscription) Section Code End Here */
   
   
 }
