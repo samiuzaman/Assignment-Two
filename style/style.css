@@ -541,4 +541,59 @@ td {
   font-size: 1.3rem;
 }
 /* Meet Our Team Section Code End Here */
-
+/* Footer Section Code Start Here */
+footer {
+  width: 100%;
+  margin: 0 auto;
+  padding: 45px 0;
+  background-color: var(--approxIvoryColor);
+}
+.footer-contant {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 60px;
+  border-bottom: 2px solid var(--approxIvoryColor);
+}
+.footer-child-container {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-section-one {
+  width: 40%;
+}
+.footer-section-one h2 {
+  color: var(--mandarinColor);
+  font-size: 4rem;
+  font-weight: 900;
+  margin-bottom: 18px;
+}
+.footer-section-one p {
+  font-size: 1rem;
+  line-height: 28px;
+  text-align: left;
+}
+.footer-section-two h2,
+.footer-section-three h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+  padding-top: 20px;
+}
+.footer-section-two p,
+.footer-section-three p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 18px;
+  text-transform: uppercase;
+}
+.footer-copyright-text {
+  text-align: center;
+  margin-top: 45px;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+/* Footer Section Code End Here */

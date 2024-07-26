@@ -418,5 +418,22 @@
     border-radius: 15px;
   }
   /* Meet Our Team Section Code End Here */
-  
+  /* Footer Section Code Start Here */
+  .footer-contant {
+    width: 90%;
+    flex-direction: column;
+  }
+  .footer-child-container {
+    width: 100%;
+  }
+  .footer-section-one {
+    width: 90%;
+    margin-bottom: 34px;
+    padding: 115px;
+  }
+  .footer-section-one p {
+    font-size: 1rem;
+    text-align: justify;
+  }
+  /* Footer Section Code End Here */
 }
