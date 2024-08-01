@@ -53,17 +53,18 @@
     left: 160px;
   }
   .banner-image-second-child {
-    width: 160px;
+    width: 180px;
     height: 85px;
     top: 180px;
     left: 10px;
+    padding-left: 10px;
   }
   .banner-image-first-child h3 {
     font-size: 2rem;
     font-weight: 800;
   }
   .banner-image-second-child h3 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 700;
   }
 
@@ -182,6 +183,9 @@
   .subcription-main-container {
     flex-direction: column;
   }
+  .subcribetion-single-container {
+    width: 85%;
+  }
 
   /* Unique(Subscription) Section Code End Here */
   /* Meet Our Team Section Code Start Here */
@@ -208,10 +212,10 @@
   .team-member div h5 {
     font-size: 1.2rem;
   }
-  .team-member div {
+  .team-member h5 {
     text-overflow: ellipsis;
     overflow: hidden;
-    width: 145px;
+    width: 160px;
     height: 1.2em;
     white-space: nowrap;
   }

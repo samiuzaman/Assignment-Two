@@ -532,13 +532,16 @@ td {
   border-radius: 15px;
   filter: brightness(75%);
 }
-.team-member div {
+.team-member h5 {
   position: absolute;
-  bottom: 20px;
-  left: 20px;
-}
-.team-member div h5 {
+  bottom: 35px;
+  left: 15px;
   font-size: 1.3rem;
+}
+.team-member p {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
 }
 /* Meet Our Team Section Code End Here */
 /* Footer Section Code Start Here */
