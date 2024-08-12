@@ -147,28 +147,32 @@ nav ul li:nth-child(1) {
 .banner-image-first-child,
 .banner-image-second-child {
   width: 185px;
-  height: 98px;
-  background-color: var(--approxIvoryColor);
+  height: 95px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 15px;
   position: absolute;
   top: 130px;
   left: 450px;
+  border: 2px solid var(--approxIvoryColor);
   backdrop-filter: blur(5px);
 }
+.banner-image-first-child {
+  background-color: var(--approxIvoryColor);
+}
 .banner-image-second-child {
-  width: 205px;
-  height: 96px;
+  background-color: rgba(48, 48, 48, 0.54);
+  width: 190px;
+  height: 95px;
   position: absolute;
-  top: 420px;
-  left: 105px;
+  top: 418px;
+  left: 125px;
   display: flex;
   flex-direction: row;
   gap: 14px;
-  padding-right: 30px;
+  padding-right: 10px;
 }
 .banner-image-second-child span {
   width: 35px;
@@ -178,18 +182,19 @@ nav ul li:nth-child(1) {
 }
 .banner-image-first-child h3 {
   color: var(--whiteColor);
-  font-size: 2.3rem;
+  font-size: 2rem;
   font-weight: 900;
   text-align: left;
-  padding-right: 35px;
+  padding-right: 50px;
 }
 .banner-image-first-child p {
   padding-right: 20px;
 }
 .banner-image-second-child h3 {
   color: var(--whiteColor);
-  font-size: 1.9rem;
-  font-weight: 900;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: left;
 }
 .banner-image-first-child p,
 .banner-image-second-child p {
@@ -261,7 +266,7 @@ nav ul li:nth-child(1) {
   background-color: var(--neroColor);
   border-radius: 15px;
   margin-bottom: 120px;
-  padding: 40px 20px;
+  padding: 25px 0;
   padding-right: 2%;
 }
 .card-text-area {
@@ -370,7 +375,7 @@ th,
 td {
   border: 1px solid var(--approxIvoryColor);
   border-collapse: collapse;
-  padding: 15px 40px;
+  padding: 15px 20px;
   text-align: left;
 }
 .BMI-Calculator-Chart table tr th {
@@ -384,7 +389,7 @@ td {
   font-size: 0.9rem;
 }
 .Calculate-your-BMI {
-  width: 45%;
+  width: 50%;
 }
 .Calculate-your-BMI input,
 .Calculate-your-BMI select {

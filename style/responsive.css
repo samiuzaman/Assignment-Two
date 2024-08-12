@@ -51,13 +51,14 @@
     position: absolute;
     top: 30px;
     left: 160px;
+    padding-left: 10px;
   }
   .banner-image-second-child {
-    width: 180px;
-    height: 85px;
+    width: 150px;
+    height: 82px;
     top: 180px;
-    left: 10px;
-    padding-left: 10px;
+    left: 5px;
+    gap: 10px;
   }
   .banner-image-first-child h3 {
     font-size: 2rem;
@@ -67,6 +68,10 @@
     font-size: 1.5rem;
     font-weight: 700;
   }
+  .banner-image-second-child span {
+    width: 30px;
+    height: 30px;
+  }
 
   /* Banner Sectiio Code End Here */
   /* Change Your Habits Section Code Start Here */
@@ -75,6 +80,9 @@
   }
   .change-habit-title-container {
     width: 100%;
+  }
+  .change-habit-title-container h2 {
+    font-size: 2rem;
   }
   .change-habit-content-area {
     flex-direction: column;
@@ -95,7 +103,7 @@
     flex-direction: column;
     padding: 0px;
     padding-right: 0%;
-    padding: 35px 15px;
+    padding: 35px 25px;
   }
   .card-text-area {
     width: 100%;
@@ -106,9 +114,10 @@
   .card-text-area h2 {
     font-size: 2.5rem;
     padding-right: 0%;
+    margin-bottom: 24px;
   }
   .card-text-area button {
-    width: 80%;
+    width: 100%;
     margin-bottom: 30px;
   }
   .card-image-area {
@@ -125,6 +134,12 @@
   }
   .trainings-exercises-title-container {
     width: 100%;
+  }
+  .trainings-exercises-title-container h2 {
+    font-size: 2.5rem;
+  }
+  .trainings-exercises-title-container p {
+    text-align: left;
   }
   .trainings-images-container-one {
     display: block;
@@ -159,7 +174,7 @@
     margin-bottom: 44px;
   }
   .BMI-Calculator-Chart h3 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 800;
   }
   .Calculate-your-BMI {
@@ -179,6 +194,9 @@
   .subcription-title-container {
     width: 100%;
     padding: 10px;
+  }
+  .subcription-title-container h2 {
+    font-size: 2.5rem;
   }
   .subcription-main-container {
     flex-direction: column;
